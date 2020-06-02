@@ -1,1 +1,2 @@
-# OpenTK-Window
+# OpenTK Window
+Desktop application

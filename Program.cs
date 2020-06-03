@@ -9,7 +9,7 @@ namespace WindowTest
 
         public static void Main(string[] args)
         {
-            window = new GameWindow(1000, 750);
+            window = new GameWindow(720, 720);
             game = new Game(window);
         }
     }

@@ -9,7 +9,6 @@ namespace WindowTest
     public class Game
     {
         GameWindow window;
-        double theta = 0;
         bool canTranslate = true;
 
         public Game(GameWindow window) {
@@ -90,9 +89,6 @@ namespace WindowTest
 
             GL.End();
             window.SwapBuffers();
-            theta += 1;
-
-            if (theta > 360) theta -= 360;
         }
 
         void load(object o, EventArgs e) {
